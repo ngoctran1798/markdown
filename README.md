@@ -79,8 +79,12 @@ hoặc
 
 <a name="hinhanh"></a>
 ## 6. *Tạo hình ảnh*  
-Cú pháp: `![mô tả](link)`  
-![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)</a>
+Cú pháp: `![mô tả](link)` 
+VD:'![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)'  
+
+![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)  
+
+<a name="bang"></a>
 ##  7. *Bảng*
  Các cột được tách nhau bằng dấu ngăn thẳng đứng |   
  header được tách với content bằng dấu gạch ngang -.
