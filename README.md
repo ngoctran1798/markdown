@@ -80,9 +80,7 @@ hoặc
 <a name="hinhanh"></a>
 ## 6. *Tạo hình ảnh*  
 Cú pháp: `![mô tả](link)` 
-VD:~~~![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)~~~
-
-![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)  
+![VÍ DỤ](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)  
 
 <a name="bang"></a>
 ##  7. *Bảng*
