@@ -33,7 +33,7 @@
  * viết tin nhắn trên diễn đàn
  * tạo văn bản có định dạng bằng một trình biên tập văn bản thô    
  
-#Các cú pháp thường sử dụng:  
+# Các cú pháp thường sử dụng:  
 
 <a name="tieude"></a>
 ## 1. *Tạo tiêu đề*
@@ -80,7 +80,7 @@ hoặc
 <a name="hinhanh"></a>
 ## 6. *Tạo hình ảnh*  
 Cú pháp: `![mô tả](link)` 
-VD:'![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)'  
+VD:~~~![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)~~~
 
 ![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)  
 
