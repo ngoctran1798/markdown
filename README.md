@@ -70,9 +70,9 @@ hoặc `-danh sách` hoặc `* danh sách`
 <a name="lienket"></a>
 ## 5. *Tạo liên kết*
 - Có thể chèn Link trực tiếp  
-https://www.w3schools.com/
-hoặc đặt trong cặp dấu ngoặc
-`<https://www.w3schools.com/>`  
+https://www.w3schools.com/  
+hoặc đặt trong cặp dấu ngoặc  
+`<https://www.w3schools.com/>` 
 hoặc
 `![Tên link](đường dẫn) (<a>)`    
 `![Tên link với chú thích](đường dẫn "chú thích") (<a name="chú thích">)`    
