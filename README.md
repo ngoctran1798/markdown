@@ -1,71 +1,115 @@
-#Tìm Hiểu Mardown
-tài liệu :tìm hiểu markdown
+## Tìm hiểu markdown.
 
-tên:Trần Thị Ngọc  
-    Lê Thanh Nhàn  
-    
+> 
+> Thực hiện: **Lê Thanh Nhàn + Trần  Thị Ngọc**
+> 
+> Cập nhật lần cuối: **07/08/2019**
 
-ngày cập nhật :07/08/2019
+### Mục lục
 
+[Markdown là gì?](#markdown)
 
+[1. Tạo tiêu đề](#tieude)
 
-##1.Markdown Là Gì?  
-Markdown là ngôn ngữ đánh dấu văn bản được tạo ra bởi John Gruber. Markdown sử dụng cú pháp khá đơn giản và dễ hiểu để đánh dấu văn bản và văn bản được viết bằng Markdown sẽ có thể được chuyển đổi sang HTML. Ngược lại các văn bản được viết bằng HTML cũng có thể được chuyển đổi sang Markdown  
+[2. Định dạng chữ](#dinhdang)
 
+[3.Xuống dòng](#xuongdong)
 
-##2.Tác dụng  
+[4.Tạo danh sách](#danhsach)
 
-Sự phổ biến của HTML khiến ngôn ngữ đánh dấu này được sử dụng rộng rãi trong các ứng dụng sử dụng internet từ các trang web tới nội dung email hay rất nhiều các tài liệu hướng dẫn online cũng đều sử dụng ngôn ngữ này. Tuy nhiên một vấn đề gặp phải của HML đó là cú pháp của ngôn ngữ này không được thân thiện lắm với người dùng.  
+[5. Tạo  liên kết](#lienket)
 
+[6.Tạo hình ảnh](#hinhanh)
 
-3.Một số Cú Pháp Cơ Bản
-
-a.Tạo Tiêu Đề 
-
-Các lớp tiêu đề h1,h2,h3 cho đến h6 có thể viết được bằng cách thêm số lượng ký tự # tương ứng vào đầu dòng. Một ký tự # tương đương với h1, 2 ký tự # tương đương với h2 ... Tuy vậy để viết một bài viết dễ đọc thì hiếm khi cần dùng đến quá 3 ký tự này.
-
+[7. Bảng](#bang)
 
 
-# Tiêu đề 1 (h1)
-## Tiêu đề 2 (h2)
+<a name="markdown"></a>
+#  Markdown là gì?
+- Markdown là ngôn ngữ đánh dấu văn bản thô được tạo ra bởi John Gruber. 
+- Văn bản được viết bằng Markdown sẽ có thể được chuyển đổi sang HTML và ngược lại.
+- Thường được dùng để:
+ * tạo tập tin readme
+ * viết tin nhắn trên diễn đàn
+ * tạo văn bản có định dạng bằng một trình biên tập văn bản thô    
+ 
+#Các cú pháp thường sử dụng:  
+
+<a name="tieude"></a>
+## 1. *Tạo tiêu đề*
+> # Tiêu đề 1 (h1)  
+## Tiêu đề 2 (h2)  
 ### Tiêu đề 3 (h3)  
+#### Tiêu đề 4 (h4)  
+##### Tiêu đề 5 (h5)  
+###### Tiêu đề 6 (h6)
+
+<a name="dinhdang"></a>
+## 2. *Định dạng chữ*
+* *In nghiêng* : `*kí tự cần in nghiêng*` hoặc  `__ kí tự cần in nghiêng__`  
+* **In đậm** :`**In đậm**` hoặc `__In đậm__`  
+* ~~Gạch ngang~~: `~~gạch ngang~~`  
+
+<a name="xuongdong"></a>
+## 3. *Xuống dòng* :  
+`<space><space>`: sử dụng hai khoảng trắng
+
+<a name="danhsach"></a>
+## 4. *Tạo danh sách*  
+Chú pháp : `1. danh sách `
+
+1. danh sách 1
+2. danh sách 2
+3. danh sách 3
+
+hoặc `-danh sách` hoặc `* danh sách`
+- danh sách 1
+- danh sách 2
+- danh sách 3
+
+<a name="lienket"></a>
+## 5. *Tạo liên kết*
+- Có thể chèn Link trực tiếp  
+http://www.pcworld.com.vn/  
+hoặc đặt trong cặp dấu ngoặc
+`<http://www.pcworld.com.vn/>`  
+hoặc
+`![Tên link](đường dẫn) (<a>)`    
+`![Tên link với chú thích](đường dẫn "chú thích") (<a name="chú thích">)`    
+
+<a name="hinhanh"></a>
+## 6. *Tạo hình ảnh*  
+Cú pháp: `![mô tả](link)`  
+![](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)</a>
+##  7. *Bảng*
+ Các cột được tách nhau bằng dấu ngăn thẳng đứng |   
+ header được tách với content bằng dấu gạch ngang -.
+  ~~~
+  
+|       A       |      B        | C     |
+| :------------:|:-------------:|:-----:|
+|    3          |        2      |  1    |
+|     2         |        4      |   1   |
+|     a         | b             |    d  |
+~~~  
+
+|       A       |      B        | C     |
+| :-----------: |:-------------:| :----:|
+|    3          |        2      |  1    |
+|     2         |        4      |   1   |
+|     a         | b             |    d  |
 
 
-b.In đậm,in nghiêng  
-
-Kẹp một từ ở đầu và cuối bằng 1 ký tự * để in nghiêng, 2 ký tự ** để bôi đậm, và 3 ký tự *** để vừa in nghiêng vừa bôi đậm.
-
-
-Chữ **in đậm** và chữ *in nghiêng*  
-
-c.gạch ngang  
-
-dùng ~~
-
-~~gạch ngang~~
-
-d.link
-
-đặt trong dấu móc nhọn <> hoặc mô tả [ mô tả ] (link)    
-
-vd: [facebook] <https://www.facebook.com>    
-
-e.hình ảnh 
-
-!<img>(link)    
-
-![bến tre]( http://hiephoiduabentre.com.vn/data/news/duanuoc.jpg )  
-
-f.bảng
-
-Các cột được tách nhau bằng dấu ngăn thẳng đứng | và header được tách với content bằng dấu gạch ngang -.
+ 
+ ~~THE END~
+ 
 
 
 
 
-|  1   | 2    |  3 |  
-|------|:----:|---:| 
-|a     |b     |c   | 
+ 
 
 
-HẾT....
+
+
+
