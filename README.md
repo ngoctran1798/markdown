@@ -220,7 +220,7 @@ Cú pháp: `![mô tả](link)`
 ![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git4.png)  
 - Quay lại với terminal bạn có thể kiểm tra bằng cách đánh ssh git@github.com Nếu xuất hiện Hi username! You've successfully authenticated... thì chúc mừng bạn đã được liên kết với tài khoản github.  
 ![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git5.png)  
-### 2.4.*Caching your Github passwor*
+### 2.4.*Caching your Github password*
 - Nếu bạn clone repo sử dụng HTTP thì có thể sử dụng 1 helper để lưu user/pass tài khoản github để tiện việc commit những thay đổi (sẽ không cần đánh user/pass lại)
 - Nếu bạn clone repo của github sử dụng SSH thì bạn sẽ xác thực bằng key SSH thay vì tên người dùng.  
 - Để sử dụng helper bạn dùng lệnh sau:  
