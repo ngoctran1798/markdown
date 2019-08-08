@@ -1,4 +1,4 @@
-## GITHUB.
+# BÁO CÁO GITHUB.
 
 > 
 > Thực hiện: **Lê Thanh Nhàn + Trần  Thị Ngọc**
@@ -148,14 +148,27 @@ Cú pháp: `![mô tả](link)`
  ## Cần phải làm gì để có thể sử dụng Github?  
  - B1: Đăng ký một tài khoản tại github và đăng nhập  
  - B2: Học cách sử dụng ngôn ngữ Markdown  
- - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown 
- ## 1.Các Thao Tác Với Git và Github  
-  ### 1.1.Repository.  
+ - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown   
  **Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng. Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,... Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github. Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là:**  
  ![](https://www.bogotobogo.com/WebTechnologies/images/Git/Git_Local_Operations.png)  
  - Committed: file ở thư mục làm việc (working directory) đã đồng nhất với file được lưu trong local repository
  - Modified: file đang thay đổi
- - Staged: file thay đổi, được chuẩn bị để chốt hạ (commit) vào local repository lần tới. Nếu commit thành công, thì file lại chuyển về trạng thái Commited.
+ - Staged: file thay đổi, được chuẩn bị để chốt hạ (commit) vào local repository lần tới. Nếu commit thành công, thì file lại chuyển về trạng thái Commited. 
+  ## 1.Tìm Hiểu Các Khái Niệm
+  ### 1.1.Repository. 
+  *- Repository hay được gọi tắt là Repo, đơn giản là nơi chứa tất cả những thông tin cần thiết để duy trì và quản lý các sửa đổi và lịch sử của toàn bộ project. Trong Repo có 2 cấu trúc dữ liệu chính là Object Store và Index. Tất cả dữ liệu của Repo đèu được chứa trong thư mục bạn đang làm việc dưới dạng folder ẩn có tên là .git*  
+  ![](https://4.bp.blogspot.com/-fC2tMlgfHXo/VTvNssnSP1I/AAAAAAAACWI/C6nTDooFOiE/s1600/git-repo.png)
+  - Repository của Git được phân thành 2 loại là remote repository và local repository.  
+    - Remote repository: Là repository dùng để chia sẽ giữa nhiều người và bố trí trên server chuyên dụng.  
+    ![](https://2.bp.blogspot.com/-aBPG-ztqfk0/VTvHH59jZkI/AAAAAAAACVc/eXqR_iG3oys/s1600/basic-remote-workflow.png)
+    - Local repository: Là repository ở trên máy tính của chính bản thân mình, dành cho một người dùng sử dụng.
+  ### 2.1 Add, Pull, Push, Clone  
+  - **Add**: thao tác đẩy một tệp tin từ working directory vào staging area để chuẩn bị cho việc commit.
+  - **Pull**: thao tác lấy mã nguồn từ một hoặc nhiều nhánh cụ thể nào đó ở remote server nào đó về local repository trên máy tính của bạn
+  - **Push**: thao tác đẩy mã nguồn hiện tại đã được commit của bạn lên remote server.
+  - **Clone**: thao tác tải mã nguồn từ một remote server về máy tính,chỉ tải về máy local repository nhánh master
+  
+ 
  
  
 
