@@ -81,7 +81,7 @@ hoặc
 ## 6. *Tạo hình ảnh*  
 Cú pháp: `![mô tả](link)`  
 
-![VÍ DỤ](http://channel.vcmedia.vn/thumb_w/640/prupload/441/2015/11/img20151125142712743.jpg)  
+![VÍ DỤ](http://imgt.taimienphi.vn/cf/Images/tt/2018/8/1/list-icon-facebook-bua-che.jpg)  
 
 <a name="bang"></a>
 ##  7. *Bảng*
