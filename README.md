@@ -7,18 +7,32 @@
 
 ### Mục lục  
 [I. MARKDOWN](#I)  
-[Markdown là gì?](#markdown)
-[1. Tạo tiêu đề](#tieude)
-[2. Định dạng chữ](#dinhdang)
-[3.Xuống dòng](#xuongdong)
-[4.Tạo danh sách](#danhsach)
-[5. Tạo  liên kết](#lienket)
-[6.Tạo hình ảnh](#hinhanh)
-[7. Bảng](#bang)
+
+[Markdown là gì?](#markdown)  
+
+[1. Tạo tiêu đề](#tieude)  
+
+[2. Định dạng chữ](#dinhdang)  
+
+[3.Xuống dòng](#xuongdong)  
+
+[4.Tạo danh sách](#danhsach)  
+
+[5. Tạo  liên kết](#lienket)  
+
+[6.Tạo hình ảnh](#hinhanh)  
+
+[7. Bảng](#bang)  
+
 [8.Cài đặt sublime text](#sublime)  
+
 [II. GITHUB](#II)  
+
 [Github là gì?](#github)  
-[1.Tìm Hiểu Các Khái Niệm](#timhieu)
+
+[1.Tìm Hiểu Các Khái Niệm](#timhieu)  
+
+[2. Cài đặt git, Generate, add key SSH...  ](#caidat)
 
 
 
@@ -119,21 +133,21 @@ Cú pháp: `![mô tả](link)`
  ### 8.3.Cài đặt các extensions 
  - B1: Khởi động package control  
  - B2: Cài các gói sau:  
-   - Alignment => Căn lề (Ctrl + Alt + A)  
-   - Vn Ime => Gõ tiếng việt trên Sublime Text 3 => Nhấn F2 để gõ.  
-   - TrailingSpaces: Giúp bạn phát hiện bỏ đi những khoảng trắng dư thừa trong quá trình code. Sau khi cài đặt thì bạn có thể nhận thấy rằng các vùng có khoảng trắng dư nó sẽ tự hightlight lên.  
-   - Jquery  
-   - jQuery Snippets  
-   - Nettuts+ Fetch => Hỗ trợ reset file => Ctrl + Alt + P > Fetch > Single File  
-   - Sublime CodeIntel => Nó hỗ trợ cho bạn việc hiển thị các gợi ý ngay khi bạn code, về các functions, biến, object, string. Nó chính là bộ xương sống của tính năng Intelligent Suggesstion.  
-   - Tag => Hỗ trợ tag html  
-   - Google Search  
-   - WordPress  
-   - HTML5  
-   - Sublime Linter: Gói mở rộng này sẽ giúp bạn biết ngay khi bạn gõ, rằng có thể bạn đã làm một điều gì đó sai, ví dụ, mở ngoặc mà quên đóng, quên dấu ; ở cuối dòng lệnh,…Với riêng PHP + CSS + Javascript, bạn nên cài một số thành phần phụ cho SublimeLinter này, nhờ vào Package Control  
-   - SublimeLinter-phplint => Check lỗi php  
-   - SublimeLinter-json  
-   - Xdebug Client: Dễ dàng debug ứng dụng PHP của mình.  
+   - **Alignment** => Căn lề (Ctrl + Alt + A)  
+   - **Vn Ime** => Gõ tiếng việt trên Sublime Text 3 => Nhấn F2 để gõ.  
+   - **TrailingSpaces**: Giúp bạn phát hiện bỏ đi những khoảng trắng dư thừa trong quá trình code. Sau khi cài đặt thì bạn có thể nhận thấy rằng các vùng có khoảng trắng dư nó sẽ tự hightlight lên.  
+   - **Jquery**  
+   - **jQuery Snippets**  
+   - **Nettuts+ Fetch** => Hỗ trợ reset file => Ctrl + Alt + P > Fetch > Single File  
+   - **Sublime CodeIntel** => Nó hỗ trợ cho bạn việc hiển thị các gợi ý ngay khi bạn code, về các functions, biến, object, string. Nó chính là bộ xương sống của tính năng Intelligent Suggesstion.  
+   - **Tag** => Hỗ trợ tag html  
+   - **Google Search**  
+   - **WordPress**  
+   - **HTML5**  
+   - **Sublime Linter**: Gói mở rộng này sẽ giúp bạn biết ngay khi bạn gõ, rằng có thể bạn đã làm một điều gì đó sai, ví dụ, mở ngoặc mà quên đóng, quên dấu ; ở cuối dòng lệnh,…Với riêng PHP + CSS + Javascript, bạn nên cài một số thành phần phụ cho SublimeLinter này, nhờ vào Package Control  
+   - **SublimeLinter-phplint** => Check lỗi php  
+   - **SublimeLinter-json**  
+   - **Xdebug Client**: Dễ dàng debug ứng dụng PHP của mình.  
  <a name ="II"></a>  
  # II.GIHUB   
  <a name="github"></a>  
@@ -173,7 +187,15 @@ Cú pháp: `![mô tả](link)`
   - **star**: có lẽ được nhiều người dùng như là một công cụ đánh dấu, nếu thấy project đó hay thì sẽ đánh dấu cái project đó lại bằng cách star nó một phát.  
   - **Remove**:Để remove một thư mục hay một file nào đó bạn có thể xóa ở máy local sau đó add và commit lại là xong.Nếu muốn xóa repo bạn vào repo đó trên server và chọn Delete this repository ở phần Setting. Đọc warning và chọn yes...  
   - **Watch**:Để thực hiện bạn chọn Watch trên repo mà bạn muốn và khi đó bạn sẽ nhận được thông báo cho các yêu cầu mới hay vấn đề gì xảy ra với repo đó.  
- ## 2. Cài đặt git, Generate, add key SSH...  
+  <a name = "caidat"></a>  
+ ## 2.Cài đặt git, Generate, add key SSH...  
+ ### 2.1.Cài đặt Git  
+ - Với HĐH là Ubuntu, Debian:
+     > apt-get install git
+ - Với HĐH là Fedora, CentOS
+     > yum install git
+ - Với Arch
+     > pacman -S git
  
   
   
