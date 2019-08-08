@@ -7,24 +7,20 @@
 
 ### Mục lục  
 [I. MARKDOWN](#I)  
-
 [Markdown là gì?](#markdown)
-
 [1. Tạo tiêu đề](#tieude)
-
 [2. Định dạng chữ](#dinhdang)
-
 [3.Xuống dòng](#xuongdong)
-
 [4.Tạo danh sách](#danhsach)
-
 [5. Tạo  liên kết](#lienket)
-
 [6.Tạo hình ảnh](#hinhanh)
-
 [7. Bảng](#bang)
-
 [8.Cài đặt sublime text](#sublime)  
+[II. GITHUB](#II)  
+[Github là gì?](#github)  
+[1.Tìm Hiểu Các Khái Niệm](#timhieu)
+
+
 
 <a name = "I"></a>
 # I.MARKDOWN
@@ -151,9 +147,10 @@ Cú pháp: `![mô tả](link)`
  - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown   
  **Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng. Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,... Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github. Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là:**  
  ![](https://www.bogotobogo.com/WebTechnologies/images/Git/Git_Local_Operations.png)  
- - Committed: file ở thư mục làm việc (working directory) đã đồng nhất với file được lưu trong local repository
- - Modified: file đang thay đổi
- - Staged: file thay đổi, được chuẩn bị để chốt hạ (commit) vào local repository lần tới. Nếu commit thành công, thì file lại chuyển về trạng thái Commited. 
+ - **Committed**: file ở thư mục làm việc (working directory) đã đồng nhất với file được lưu trong local repository
+ - **Modified**: file đang thay đổi
+ - **Staged**: file thay đổi, được chuẩn bị để chốt hạ (commit) vào local repository lần tới. Nếu commit thành công, thì file lại chuyển về trạng thái Commited.   
+ <a name = "timhieu"></a>  
   ## 1.Tìm Hiểu Các Khái Niệm
   ### 1.1.Repository. 
   *- Repository hay được gọi tắt là Repo, đơn giản là nơi chứa tất cả những thông tin cần thiết để duy trì và quản lý các sửa đổi và lịch sử của toàn bộ project. Trong Repo có 2 cấu trúc dữ liệu chính là Object Store và Index. Tất cả dữ liệu của Repo đèu được chứa trong thư mục bạn đang làm việc dưới dạng folder ẩn có tên là .git*  
@@ -162,11 +159,17 @@ Cú pháp: `![mô tả](link)`
     - Remote repository: Là repository dùng để chia sẽ giữa nhiều người và bố trí trên server chuyên dụng.  
     ![](https://2.bp.blogspot.com/-aBPG-ztqfk0/VTvHH59jZkI/AAAAAAAACVc/eXqR_iG3oys/s1600/basic-remote-workflow.png)
     - Local repository: Là repository ở trên máy tính của chính bản thân mình, dành cho một người dùng sử dụng.
-  ### 2.1 Add, Pull, Push, Clone  
+  ### 2.1 Add, Pull, Push, Clone , Fetch , Commit , Fork , Star
   - **Add**: thao tác đẩy một tệp tin từ working directory vào staging area để chuẩn bị cho việc commit.
   - **Pull**: thao tác lấy mã nguồn từ một hoặc nhiều nhánh cụ thể nào đó ở remote server nào đó về local repository trên máy tính của bạn
   - **Push**: thao tác đẩy mã nguồn hiện tại đã được commit của bạn lên remote server.
-  - **Clone**: thao tác tải mã nguồn từ một remote server về máy tính,chỉ tải về máy local repository nhánh master
+  - **Clone**: thao tác tải mã nguồn từ một remote server về máy tính,chỉ tải về máy local repository nhánh master  
+  - **Fetch**: cập nhật thay đổi từ repository server về repository local  
+  - **Commit**: Ghi lại trạng thái thay đổi tại máy local (ví dụ như bạn có thể ấn Save nhiều lần với file README.md nhưng chỉ khi commit thì trạng thái của lần ấn Save cuối cùng trước đó mới được lưu lại) - tương ứng với câu lệnh git commit  
+  - **Fork**: (khái niệm này trên GitHub) là hành động một người dùng khác copy một bản sao của repo về kho của họ. Trước khi tham gia vào một dự án của người khác thì bạn sẽ fork repo của họ và kho của mình nếu như người khác chưa cho phép bạn trở thành thành viên.  
+  - **star**: có lẽ được nhiều người dùng như là một công cụ đánh dấu, nếu thấy project đó hay thì sẽ đánh dấu cái project đó lại bằng cách star nó một phát.  
+  
+  
   
  
  
