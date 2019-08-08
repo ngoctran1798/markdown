@@ -195,7 +195,29 @@ Cú pháp: `![mô tả](link)`
  - Với HĐH là Fedora, CentOS
      > yum install git
  - Với Arch
-     > pacman -S git
+     > pacman -S git  
+ ### 2.2.Các thiết lập ban đầu  
+ - Bạn cần thiết tập tên và email của mình để khi commit lên server sẽ nhận biết được ai đang commit lên1 repo (vì có thể nhiều người tham gia)
+>
+> git config --global user.name "tên/username của bạn"
+>
+> git config --global user.email "email của bạn"
+- Lựa chọn trình soạn thảo mặc định (có thể không cần) như nano, vi, emacs,...
+> git config --global core.editor nano
+
+- Bạn có thể xem lại các thiết lập của mình
+> git config --list  
+### 2.3 Liên kết tài khoản github bằng SSH (Add key SSH)  
+- Bạn mở terminal và gõ lệnh với cú pháp sau:
+![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git2.png)  
+- Bạn cũng có thể dùng lệnh sau để add key SSH (nếu dùng lệnh này thì thực hiện các lệnh trong hình tiếp theo  
+> ssh-keygen -t rsa -C email của bạn
+
+Sau khi xong thì key rsa của bạn nằm ở ~/.ssh/
+
+id_rsa id_rsa.pub knowns_hosts
+
+Tiếp theo
  
   
   
