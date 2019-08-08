@@ -5,7 +5,8 @@
 > 
 > Cập nhật lần cuối: **07/08/2019**
 
-### Mục lục
+### Mục lục  
+[I. MARKDOWN](#I)  
 
 [Markdown là gì?](#markdown)
 
@@ -22,8 +23,8 @@
 [6.Tạo hình ảnh](#hinhanh)
 
 [7. Bảng](#bang)
-
-# I.MARKDOWN
+<a name = "I"></a>
+## I.MARKDOWN
 <a name="markdown"></a>
 #  Markdown là gì?
 - Markdown là ngôn ngữ đánh dấu văn bản thô được tạo ra bởi John Gruber. 
@@ -102,7 +103,7 @@ Cú pháp: `![mô tả](link)`
 |     2         |        4      |   1   |
 |     a         | b             |    d  |
   
- # II.GIHUB
+ ## II.GIHUB
  <a name="github"></a>  
  # Github là gì?  
  **- Github là một trang web, cho phép bạn lưu source code của mình lên đó. Sự kết hợp hoàn hảo giữa Git và Github mang lại một sự thuận tiện không hề nhỏ cho người dùng. Bạn có thể thay đổi đoạn code của mình mọi lúc mọi nơi mà không sợ bị ghi đè lên hay bị mất dữ liệu do hỏng hóc vì dữ liệu của bạn được lưu cả trên trang web Github và máy cá nhân. Bạn cũng có thể khôi phục được code của mình về một thời điểm bất kỳ nào đó.**  
