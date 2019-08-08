@@ -39,11 +39,11 @@
 <a name="tieude"></a>
 ## 1. *Tạo tiêu đề*
 > # Tiêu đề 1 (h1)  
-## Tiêu đề 2 (h2)  
-### Tiêu đề 3 (h3)  
-#### Tiêu đề 4 (h4)  
-##### Tiêu đề 5 (h5)  
-###### Tiêu đề 6 (h6)
+> ## Tiêu đề 2 (h2)  
+> ### Tiêu đề 3 (h3)  
+> #### Tiêu đề 4 (h4)  
+> ##### Tiêu đề 5 (h5)  
+> ###### Tiêu đề 6 (h6)
 
 <a name="dinhdang"></a>
 ## 2. *Định dạng chữ*
@@ -110,7 +110,7 @@ Cú pháp: `![mô tả](link)`
  **- Github là một trang web, cho phép bạn lưu source code của mình lên đó. Sự kết hợp hoàn hảo giữa Git và Github mang lại một sự thuận tiện không hề nhỏ cho người dùng. Bạn có thể thay đổi đoạn code của mình mọi lúc mọi nơi mà không sợ bị ghi đè lên hay bị mất dữ liệu do hỏng hóc vì dữ liệu của bạn được lưu cả trên trang web Github và máy cá nhân. Bạn cũng có thể khôi phục được code của mình về một thời điểm bất kỳ nào đó.**  
  *- Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...Muốn có thể tạo một kho code bí mật của riêng mình thì bạn phải trả phí.*  
  ![](https://www.pullrequest.com/blog/github-code-review-service/images/github-logo_hub2899c31b6ca7aed8d6a218f0e752fe4_46649_1200x1200_fill_box_center_2.png)  
- # Cần phải làm gì để có thể sử dụng Github?  
+ ## Cần phải làm gì để có thể sử dụng Github?  
  - B1: Đăng ký một tài khoản tại github và đăng nhập  
  - B2: Học cách sử dụng ngôn ngữ Markdown  
  - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown  
