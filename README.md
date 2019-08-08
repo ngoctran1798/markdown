@@ -159,7 +159,7 @@ Cú pháp: `![mô tả](link)`
  - B1: Đăng ký một tài khoản tại github và đăng nhập  
  - B2: Học cách sử dụng ngôn ngữ Markdown  
  - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown   
- **Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng. Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,... Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github. Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là:**  
+**Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng. Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,... Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github. Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là:**  
  ![](https://www.bogotobogo.com/WebTechnologies/images/Git/Git_Local_Operations.png)  
  - **Committed**: file ở thư mục làm việc (working directory) đã đồng nhất với file được lưu trong local repository
  - **Modified**: file đang thay đổi
@@ -211,37 +211,27 @@ Cú pháp: `![mô tả](link)`
 - Bạn mở terminal và gõ lệnh với cú pháp sau:
 ![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git2.png)  
 - Bạn cũng có thể dùng lệnh sau để add key SSH (nếu dùng lệnh này thì thực hiện các lệnh trong hình tiếp theo  
-> ssh-keygen -t rsa -C email của bạn
+> ssh-keygen -t rsa -C email của bạn  
+- Sau khi xong thì key rsa của bạn nằm ở ~/.ssh/  
+> id_rsa id_rsa.pub knowns_hosts  
+- Tiếp theo  
+![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git3.png)  
+- Sau đó bạn dùng cat hay bất cứ lệnh nào hay cách nào để copy đoạn mã trong file id_rsa.pub và truy cập đường dẫn https://github.com/settings/ssh và chọn New SSH key để thêm key vào (bạn nhớ là đăng nhập vào tài khoản github trước).  
+![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git4.png)  
+- Quay lại với terminal bạn có thể kiểm tra bằng cách đánh ssh git@github.com Nếu xuất hiện Hi username! You've successfully authenticated... thì chúc mừng bạn đã được liên kết với tài khoản github.  
+![](https://raw.githubusercontent.com/ctnguyenvn/sysadmin_level1/master/Task04_Git_and_Github/img/git5.png)  
+### 2.4 Caching your Github password
+- Nếu bạn clone repo sử dụng HTTP thì có thể sử dụng 1 helper để lưu user/pass tài khoản github để tiện việc commit những thay đổi (sẽ không cần đánh user/pass lại)
+- Nếu bạn clone repo của github sử dụng SSH thì bạn sẽ xác thực bằng key SSH thay vì tên người dùng.  
+- Để sử dụng helper bạn dùng lệnh sau:  
+>
+> git config --global credential.helper cache
+>
+> git config --global credential.helper 'cache --timeout=1800'
 
-Sau khi xong thì key rsa của bạn nằm ở ~/.ssh/
+Lưu ý: nếu bạn không thiết lập thời gian cho helper thì mặc định sẽ là 15 phút  
 
-id_rsa id_rsa.pub knowns_hosts
-
-Tiếp theo
- 
+Sau khi đã liên kết được với github ta sẽ đi qua một vài thao tác cơ bản để hoạt động trên github sau  
   
-  
-  
-  
+ # ~~THE END~~
  
- 
- 
-
- 
-
-
- 
-
- 
- ~~THE END~
- 
-
-
-
-
- 
-
-
-
-
-
