@@ -138,11 +138,6 @@ Cú pháp: `![mô tả](link)`
    - SublimeLinter-phplint => Check lỗi php  
    - SublimeLinter-json  
    - Xdebug Client: Dễ dàng debug ứng dụng PHP của mình.  
- 
- 
- 
- 
-
  <a name ="II"></a>  
  # II.GIHUB   
  <a name="github"></a>  
@@ -153,7 +148,15 @@ Cú pháp: `![mô tả](link)`
  ## Cần phải làm gì để có thể sử dụng Github?  
  - B1: Đăng ký một tài khoản tại github và đăng nhập  
  - B2: Học cách sử dụng ngôn ngữ Markdown  
- - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown  
+ - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown 
+ ## 1.Các Thao Tác Với Git và Github  
+  ### 1.1.Repository.  
+ **Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng. Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,... Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github. Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là:**  
+ ![](https://www.bogotobogo.com/WebTechnologies/images/Git/Git_Local_Operations.png)  
+ - Committed: file ở thư mục làm việc (working directory) đã đồng nhất với file được lưu trong local repository
+ - Modified: file đang thay đổi
+ - Staged: file thay đổi, được chuẩn bị để chốt hạ (commit) vào local repository lần tới. Nếu commit thành công, thì file lại chuyển về trạng thái Commited.
+ 
  
 
  
