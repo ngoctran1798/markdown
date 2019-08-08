@@ -23,6 +23,9 @@
 [6.Tạo hình ảnh](#hinhanh)
 
 [7. Bảng](#bang)
+
+[8.Cài đặt sublime text](#sublime)  
+
 <a name = "I"></a>
 # I.MARKDOWN
 <a name="markdown"></a>
@@ -103,6 +106,23 @@ Cú pháp: `![mô tả](link)`
 |     2         |        4      |   1   |
 |     a         | b             |    d  |  
 
+<a name = "sublime"></a>
+## 8. *Cài đặt sublime text*  
+ ### 8.1.Download  
+- Vào trang http://www.sublimetext.com/3 để download .
+ ![](https://hungit.net/wp-content/uploads/2016/04/sublime-text-3.png)  
+ Sau khi cài đặt, ta mở úng dụng lên sẽ có giao diện như hình sau:
+ ![](https://hungit.net/wp-content/uploads/2016/04/giao-dien-sublime-text-3.png)  
+ ### 8.2.Cài đặt Package Control thông qua wbond.net  
+ - B1: Nhấn Ctrl + ` Hoặc View/Show Console  
+ - B2: Nhập code sau vào: 
+ ~~~
+ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+ ~~~
+ 
+ 
+ 
+
  <a name ="II"></a>  
  # II.GIHUB   
  <a name="github"></a>  
@@ -114,6 +134,7 @@ Cú pháp: `![mô tả](link)`
  - B1: Đăng ký một tài khoản tại github và đăng nhập  
  - B2: Học cách sử dụng ngôn ngữ Markdown  
  - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown  
+ 
 
  
 
