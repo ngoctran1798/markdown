@@ -111,7 +111,8 @@ Cú pháp: `![mô tả](link)`
  ### 8.1.Download  
 - Vào trang http://www.sublimetext.com/3 để download .
  ![](https://hungit.net/wp-content/uploads/2016/04/sublime-text-3.png)  
- Sau khi cài đặt, ta mở úng dụng lên sẽ có giao diện như hình sau:
+ 
+- Sau khi cài đặt, ta mở úng dụng lên sẽ có giao diện như hình sau:
  ![](https://hungit.net/wp-content/uploads/2016/04/giao-dien-sublime-text-3.png)  
  ### 8.2.Cài đặt Package Control thông qua wbond.net  
  - B1: Nhấn Ctrl + "`" Hoặc View/Show Console  
