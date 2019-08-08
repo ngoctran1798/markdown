@@ -159,8 +159,11 @@ Cú pháp: `![mô tả](link)`
     - Remote repository: Là repository dùng để chia sẽ giữa nhiều người và bố trí trên server chuyên dụng.  
     ![](https://2.bp.blogspot.com/-aBPG-ztqfk0/VTvHH59jZkI/AAAAAAAACVc/eXqR_iG3oys/s1600/basic-remote-workflow.png)
     - Local repository: Là repository ở trên máy tính của chính bản thân mình, dành cho một người dùng sử dụng.
-  ### 2.1 Add, Pull, Push, Clone , Fetch , Commit , Fork , Star
+  ### 1.2 Add, Pull, Push, Clone , Fetch , Commit , Fork , Star
   - **Add**: thao tác đẩy một tệp tin từ working directory vào staging area để chuẩn bị cho việc commit.
+       - *git add "tên_file"*: dùng để add file chỉ định
+       - *git add*:	dùng để add tất cả
+       - *git add --all*:	dùng để add tất cả  
   - **Pull**: thao tác lấy mã nguồn từ một hoặc nhiều nhánh cụ thể nào đó ở remote server nào đó về local repository trên máy tính của bạn
   - **Push**: thao tác đẩy mã nguồn hiện tại đã được commit của bạn lên remote server.
   - **Clone**: thao tác tải mã nguồn từ một remote server về máy tính,chỉ tải về máy local repository nhánh master  
@@ -168,6 +171,11 @@ Cú pháp: `![mô tả](link)`
   - **Commit**: Ghi lại trạng thái thay đổi tại máy local (ví dụ như bạn có thể ấn Save nhiều lần với file README.md nhưng chỉ khi commit thì trạng thái của lần ấn Save cuối cùng trước đó mới được lưu lại) - tương ứng với câu lệnh git commit  
   - **Fork**: (khái niệm này trên GitHub) là hành động một người dùng khác copy một bản sao của repo về kho của họ. Trước khi tham gia vào một dự án của người khác thì bạn sẽ fork repo của họ và kho của mình nếu như người khác chưa cho phép bạn trở thành thành viên.  
   - **star**: có lẽ được nhiều người dùng như là một công cụ đánh dấu, nếu thấy project đó hay thì sẽ đánh dấu cái project đó lại bằng cách star nó một phát.  
+  - **Remove**:Để remove một thư mục hay một file nào đó bạn có thể xóa ở máy local sau đó add và commit lại là xong.Nếu muốn xóa repo bạn vào repo đó trên server và chọn Delete this repository ở phần Setting. Đọc warning và chọn yes...  
+  - **Watch**:Để thực hiện bạn chọn Watch trên repo mà bạn muốn và khi đó bạn sẽ nhận được thông báo cho các yêu cầu mới hay vấn đề gì xảy ra với repo đó.  
+ ## 2. Cài đặt git, Generate, add key SSH...  
+ 
+  
   
   
   
