@@ -114,11 +114,30 @@ Cú pháp: `![mô tả](link)`
  Sau khi cài đặt, ta mở úng dụng lên sẽ có giao diện như hình sau:
  ![](https://hungit.net/wp-content/uploads/2016/04/giao-dien-sublime-text-3.png)  
  ### 8.2.Cài đặt Package Control thông qua wbond.net  
- - B1: Nhấn Ctrl + ` Hoặc View/Show Console  
+ - B1: Nhấn Ctrl + "`" Hoặc View/Show Console  
  - B2: Nhập code sau vào: 
  ~~~
  import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
- ~~~
+ ~~~  
+ ### 8.3.Cài đặt các extensions 
+ - B1: Khởi động package control  
+ - B2: Cài các gói sau:  
+   - Alignment => Căn lề (Ctrl + Alt + A)  
+   - Vn Ime => Gõ tiếng việt trên Sublime Text 3 => Nhấn F2 để gõ.  
+   - TrailingSpaces: Giúp bạn phát hiện bỏ đi những khoảng trắng dư thừa trong quá trình code. Sau khi cài đặt thì bạn có thể nhận thấy rằng các vùng có khoảng trắng dư nó sẽ tự hightlight lên.  
+   - Jquery  
+   - jQuery Snippets  
+   - Nettuts+ Fetch => Hỗ trợ reset file => Ctrl + Alt + P > Fetch > Single File  
+   - Sublime CodeIntel => Nó hỗ trợ cho bạn việc hiển thị các gợi ý ngay khi bạn code, về các functions, biến, object, string. Nó chính là bộ xương sống của tính năng Intelligent Suggesstion.  
+   - Tag => Hỗ trợ tag html  
+   - Google Search  
+   - WordPress  
+   - HTML5  
+   - Sublime Linter: Gói mở rộng này sẽ giúp bạn biết ngay khi bạn gõ, rằng có thể bạn đã làm một điều gì đó sai, ví dụ, mở ngoặc mà quên đóng, quên dấu ; ở cuối dòng lệnh,…Với riêng PHP + CSS + Javascript, bạn nên cài một số thành phần phụ cho SublimeLinter này, nhờ vào Package Control  
+   - SublimeLinter-phplint => Check lỗi php  
+   - SublimeLinter-json  
+   - Xdebug Client: Dễ dàng debug ứng dụng PHP của mình.  
+ 
  
  
  
