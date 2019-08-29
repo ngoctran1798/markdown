@@ -101,7 +101,7 @@ Cú pháp: `![mô tả](link)`
 ##  7.*Bảng*
  Các cột được tách nhau bằng dấu ngăn thẳng đứng |   
  header được tách với content bằng dấu gạch ngang -.
-  ~~~
+ ~~~
   
 |       A       |      B        | C     |
 | :------------:|:-------------:|:-----:|
@@ -152,13 +152,13 @@ Cú pháp: `![mô tả](link)`
  # II.GITHUB   
  <a name="github"></a>  
  # Github là gì?  
- - **Github là một trang web, cho phép bạn lưu source code của mình lên đó. Sự kết hợp hoàn hảo giữa Git và Github mang lại một sự thuận tiện không hề nhỏ cho người dùng. Bạn có thể thay đổi đoạn code của mình mọi lúc mọi nơi mà không sợ bị ghi đè lên hay bị mất dữ liệu do hỏng hóc vì dữ liệu của bạn được lưu cả trên trang web Github và máy cá nhân. Bạn cũng có thể khôi phục được code của mình về một thời điểm bất kỳ nào đó.**  
+ - ***Github là một trang web, cho phép bạn lưu source code của mình lên đó. Sự kết hợp hoàn hảo giữa Git và Github mang lại một sự thuận tiện không hề nhỏ cho người dùng. Bạn có thể thay đổi đoạn code của mình mọi lúc mọi nơi mà không sợ bị ghi đè lên hay bị mất dữ liệu do hỏng hóc vì dữ liệu của bạn được lưu cả trên trang web Github và máy cá nhân. Bạn cũng có thể khôi phục được code của mình về một thời điểm bất kỳ nào đó.***  
  - *Github có bản free và mất phí. Với Github free thì source code của bạn sẽ công khai, có nghĩa là ai cũng có thể xem code của bạn. Nó phù hợp với các phần mềm nguồn mở, và cũng có thể trở thành một blog cá nhân của chính các bạn như các trang blogspot, wordpress,...Muốn có thể tạo một kho code bí mật của riêng mình thì bạn phải trả phí.*  
  ![](https://www.pullrequest.com/blog/github-code-review-service/images/github-logo_hub2899c31b6ca7aed8d6a218f0e752fe4_46649_1200x1200_fill_box_center_2.png)  
  ## Cần phải làm gì để có thể sử dụng Github?  
- - B1: Đăng ký một tài khoản tại github và đăng nhập  
- - B2: Học cách sử dụng ngôn ngữ Markdown  
- - B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown   
+ - *B1: Đăng ký một tài khoản tại github và đăng nhập* 
+ - *B2: Học cách sử dụng ngôn ngữ Markdown*  
+ - *B3: Tạo một repo đầu tiên và gõ Hello world bằng Markdown*   
 **Git là một công cụ để quản lý mã nguồn, nhưng tôi không phải là một coder nên tôi sẽ không sử dụng Git theo cách mà các coder hay sử dụng. Tôi sử dụng git và github để lưu trữ các file cấu hình của mình, các script, viết các bài hướng dẫn, các bản nháp,... Các repo là những nơi tôi phân loại, lưu trữ những thứ bên trên và nó được lưu cả ở máy trạm và ở server github. Để làm việc với repo thì bạn phải hiểu về nó. Một số điều bạn cần biết là:**  
  ![](https://www.bogotobogo.com/WebTechnologies/images/Git/Git_Local_Operations.png)  
  - **Committed**: file ở thư mục làm việc (working directory) đã đồng nhất với file được lưu trong local repository
