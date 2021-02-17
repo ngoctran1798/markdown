@@ -1,7 +1,7 @@
 # BÁO CÁO GITHUB.
 
 > 
-> Thực hiện: **Lê Thanh Nhàn + Trần  Thị Ngọc**
+> Thực hiện: **Trần  Thị Ngọc**
 > 
 > Cập nhật lần cuối: **10/08/2019**
 
